@@ -7,12 +7,16 @@ __**安装**__
 
 
 composer 安装
+
+
 composer require sudongxu/dcat-operation-log
 
 __**启用插件**__
 
 开发工具 -> 扩展 -> sudongxu.dcat-operation-log -> 升级 -> 启用
 发布配置 operation-log.php
+
+
 php artisan vendor:publish --provider="Sudongxu\OperationLog\OperationLogServiceProvider"
 
 __**方法使用**__
