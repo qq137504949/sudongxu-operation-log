@@ -4,7 +4,7 @@
     "description": "dcat-admin操作日志记录，根据配置文件限制是否记录类型：【GET,POST,PUT,DELETE....】",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/sudongxu/operation-log",
+    "homepage": "https://github.com/qq137504949/sudongxu-operation-log",
     "license": "MIT",
     "authors": [
         {
