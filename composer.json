@@ -1,0 +1,32 @@
+{
+    "name": "sudongxu/operation-log",
+    "alias": "",
+    "description": "dcat-admin操作日志记录，根据配置文件限制是否记录类型：【GET,POST,PUT,DELETE....】",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/sudongxu/operation-log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "苏东旭",
+            "email": "137504949@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sudongxu\\OperationLog\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Sudongxu\\OperationLog\\OperationLogServiceProvider",
+        "laravel": {
+            "providers": [
+                "Sudongxu\\OperationLog\\OperationLogServiceProvider"
+            ]
+        }
+    }
+}
