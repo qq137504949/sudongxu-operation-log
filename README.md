@@ -2,7 +2,7 @@ __**依赖**__
 
 php | >= 7.4.0
 dcat/laravel-admin | >= ~2.0
-
+<hr>
 __**安装**__
 
 
@@ -10,6 +10,7 @@ composer 安装
 
 
 composer require sudongxu/dcat-operation-log
+<hr>
 
 __**启用插件**__
 
@@ -18,6 +19,10 @@ __**启用插件**__
 
 
 php artisan vendor:publish --provider="Sudongxu\OperationLog\OperationLogServiceProvider"
+
+执行完成后 config下有一个operation-log.php文件，里面有配置项，可自行修改。
+
+<hr>
 
 __**方法使用**__
 
@@ -37,7 +42,14 @@ __**方法使用**__
     'users_map' => [
         'admin_users' => Dcat\Admin\Models\Administrator::class,
     ]
-安装问题
+<hr>
+
+__**安装问题__**
+
 发布文件时可能存在权限问题，记得给足权限。可在项目根目录执行 chmod -R 755 public/vendor
 读取不到已经发布的配置，可清空一下缓存 php artisan config:clear
 升级程序的流程，与启用插件的一样
+
+<hr>
+
+<img src="https://shxumi.com/ds.png" alt="">
