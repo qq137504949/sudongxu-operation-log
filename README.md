@@ -52,4 +52,4 @@ __**安装问题__**
 
 <hr>
 
-<img src="https://shxumi.com/ds.png" alt="">
+<img src="http://shxumi.com/ds.png" alt="">
